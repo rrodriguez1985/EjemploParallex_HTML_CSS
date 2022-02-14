@@ -95,6 +95,10 @@ en función de su posición entre un grupo de hermanos. */
     background-image: url(images/bg4.png);
 }
 
+.card:nth-of-type(5) .img__back {
+    background-image: url(images/bg5.png);
+}
+
 .card:hover .img__back {
     bottom: -40px;
 }
